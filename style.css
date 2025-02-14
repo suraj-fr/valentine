@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 💖 Full-Screen Romantic Gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* 🌟 Centered Container with Soft Glow */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* 🥰 Cute GIF Styling */
+.love-gif {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* 💬 Big, Bold, Beautiful Question */
+.question {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* 🎭 Button Styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 22px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 💘 YES Button */
+#yesBtn {
+    background-color: #ff4d6d;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+#yesBtn:hover {
+    background-color: #ff1e40;
+    transform: scale(1.15);
+    box-shadow: 0px 5px 15px rgba(255, 0, 100, 0.6);
+}
+
+/* 💔 NO Button */
+#noBtn {
+    background-color: #ddd;
+    color: black;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    opacity: 1;
+}
+
+#noBtn:hover {
+    background-color: #bbb;
+    transform: scale(1.15);
+}
+
+/* ✨ Smooth Fade-In Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
